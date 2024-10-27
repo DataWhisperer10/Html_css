@@ -1,0 +1,23 @@
+#login{
+    color: aqua;
+}
+h1,h3{color: #b92b27;}
+
+.upvote{
+    background-color: green; color:antiquewhite ;
+}
+
+/* descendant selector */
+nav a{color: chocolate;}
+
+/* Psudo class */
+button:hover{background-color: black;color: azure;}
+p:active{font-weight: 900; color: #b92b27;}
+
+div:nth-of-type(2n){background-color: aquamarine;}
+
+/* Psudo elements */
+
+h1::first-letter{color: red;}
+
+p::selection{background-color: lightcoral;}
